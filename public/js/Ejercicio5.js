@@ -78,7 +78,7 @@ function calculateColResults(matrix) {
         td.textContent = sum;
         sumRow.appendChild(td);
     });
-
+            
     const avgTd = document.createElement('td');
     avgTd.textContent = 'D (Promedio)';
     avgRow.appendChild(avgTd);

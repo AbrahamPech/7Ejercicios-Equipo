@@ -13,7 +13,6 @@ document.getElementById('matrixForm').addEventListener('submit', function (e) {
     displayMatrix(matrix);
 });
 
-// Función para crear la matriz
 function createMatrix(n) {
     let matrix = Array.from({ length: n }, () => Array(n).fill(0));
     for (let i = 0; i < n; i++) {
@@ -22,7 +21,6 @@ function createMatrix(n) {
     return matrix;
 }
 
-// Función para mostrar la matriz
 function displayMatrix(matrix) {
     const resultDiv = document.getElementById('result');
     resultDiv.innerHTML = '<h2>Matriz Generada:</h2>';
